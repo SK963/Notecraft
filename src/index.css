@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    font-family: "Ubuntu", monospace;
+    font-weight: 500;
+    font-style: normal;
+}
+#left{
+    background: #EFEFED;
+}
+#right,#content{
+    background-color: rgb(239 246 270);
+}
+#sidebar{
+    background-color: #3c3d43;
+    
+}
+li{
+    list-style-type: none;
+}
+i{
+    cursor: pointer;
+}
+/* custom-scrollbar.css */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 2px;
+    
+    overflow: auto;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 2px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
