@@ -6,6 +6,6 @@
 ## Run Locally 
 
 ### Using docker 
-- start Docke 
+- start Docker Desktop on your machine
 - start application : `docker compose up -d`
 - stop application :  `docker compose down `
