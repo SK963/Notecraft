@@ -15,7 +15,7 @@ services:
   frontend:
     build: .
     ports:
-      - "3000:80"  # Serve frontend on port 3000 using Nginx
+      - "80:80"  # Serve frontend on port 3000 using Nginx
     depends_on:
       - backend
     networks:
