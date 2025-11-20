@@ -7,7 +7,7 @@ import { PulseLoader,BarLoader,BeatLoader } from "react-spinners";
 function Form() {
 
   //login form
-  const PORT = localhost:5000||process.env.REACT_APP_BACKEND_URL;
+  const PORT = process.env.REACT_APP_BACKEND_URL;
   
   const { login } = useAuth();
   const [credentials, setCredentials] = useState({ userid: "", password: "" });
